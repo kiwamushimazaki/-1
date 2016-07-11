@@ -35,7 +35,8 @@ namespace ConsoleApplication1
                 }
                 else 
                 {
-                    Console.WriteLine("1～3を再入力してください>>>");
+                    Console.WriteLine("誤ったキーが選択されました");
+                    Console.WriteLine("もう一度、1.グー, 2.チョキ, 3.パーから再入力してください >>>");
                     continue;
                 }
                 player = int.Parse(temp1);
@@ -56,7 +57,8 @@ namespace ConsoleApplication1
                     }
                     else
                     {
-                        Console.WriteLine("1～3を再入力してください>>>");
+                        Console.WriteLine("誤ったキーが選択されました");
+                        Console.WriteLine("もう一度、1.グー, 2.チョキ, 3.パーから再入力してください >>>");
                         continue;
                     }
 
