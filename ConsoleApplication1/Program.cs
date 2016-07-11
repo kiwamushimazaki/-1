@@ -35,7 +35,7 @@ namespace ConsoleApplication1
                 }
                 else 
                 {
-                    Console.WriteLine("1～３を再入力してください>>>");
+                    Console.WriteLine("1～3を再入力してください>>>");
                     continue;
                 }
                 player = int.Parse(temp1);
@@ -56,7 +56,7 @@ namespace ConsoleApplication1
                     }
                     else
                     {
-                        Console.WriteLine("1～３を再入力してください>>>");
+                        Console.WriteLine("1～3を再入力してください>>>");
                         continue;
                     }
 
